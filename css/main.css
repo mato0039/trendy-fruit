@@ -11,13 +11,28 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal 100%/
+  font-family: "Open Sans", sans-serif;
+  font-family: "Gravitas One", cursive;
+  font-family: "Rammetto One", cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
+.card-1 {
+  background-color: #e97065;
+}
+
+.card-2 {
+  background-color: #fbd25e;
+}
+
+.card-3 {
+  background-color: #e86033;
+}
+
+article p {
+  font-family: "Open Sans", sans-serif;
 }
