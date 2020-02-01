@@ -11,26 +11,38 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Gravitas One", cursive;
-  font-family: "Rammetto One", cursive;
-  font-family: "Comfortaa", cursive;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .card-1 {
   background-color: #e97065;
+}
+
+.card-1 h2 {
+  font-family: "Rammetto One", cursive;
 }
 
 .card-2 {
   background-color: #fbd25e;
 }
 
+.card-2 h2 {
+  font-family: "Gravitas one", cursive;
+}
+
 .card-3 {
   background-color: #e86033;
+}
+
+.card-3 h2 {
+  font-family: "Comfortaa", cursive;
 }
 
 article p {
